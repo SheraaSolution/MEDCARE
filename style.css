@@ -1,0 +1,1652 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* General Section of MEDCARE */
+.container{
+    width: 85%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Before header section */
+/* Before header section */
+/* Before header section */
+.bfheader{
+    border-bottom: 1px solid rgb(155, 149, 149);
+}
+.bfheader .container .row a{
+    color: black;
+    opacity: calc(0.7);
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.bfheader .container .row a:hover{
+    color: rgb(32, 32, 226);
+}
+.bfheader .container .row {
+    padding: 10px 0;
+}
+.bfheader .container .row{
+    display: flex;
+}
+.bfheader .container .row .mail{
+    width: 20%;
+    font-family: fantasy;
+}
+.bfheader .container .row .location{
+    width: 20%;
+}
+.bfheader .container .row .general-social{
+    width: 58%;
+    text-align: right;
+}
+
+
+/* Header section   */
+/* Header section   */
+/* Header section   */
+.header .container .row{
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+
+.header .container .row .logo {
+    width:30%;
+    justify-content: center;
+
+}
+.header .container .row .navbar{
+    width: 68%;
+    align-items: right;
+    align-self: center;
+
+}
+.header .container .row .navbar ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: right;
+
+}
+.header .container .row .navbar ul li a{
+    margin-left: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.header .container .row .navbar ul li a:hover{
+   color:blue;
+}
+/* end of header section  */
+/* end of header section  */
+
+/* start of ahbanner section */
+/* start of ahbanner section */
+/* start of ahbanner section */
+
+.ahbanner{
+    background-image: url(./image/banner-image.jpg);
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.ahbanner .ahbanner-text{
+    max-width: 41%;
+    position: absolute;
+    top: 30%;
+
+}
+.ahbanner .ahbanner-text h1{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ahbanner .ahbanner-text p{
+    font-size: 16px;
+    line-height: 27px;
+    margin: 40px 0 60px 0;
+    color: black;
+    opacity: 0.7;
+
+}
+.ahbanner .ahbanner-text a{
+    font-size: 16;
+    background-color: rgb(17, 17, 238);
+    padding: 18px 15px;
+    transition: all 0.7s;
+
+}
+.dark-btn{
+    margin-right: 10px;
+    color: white;
+}
+.ahbanner .ahbanner-text .dark-btn:hover{
+    background-color: white !important;
+    color: blue;
+    transition: all 0.7s;
+
+}
+.ahbanner .ahbanner-text .light-btn{
+    color: black;
+    background-color: transparent;
+    border: 1px solid blue;
+}
+.ahbanner .ahbanner-text .light-btn:hover{
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    transition: all 0.7s;
+
+}
+/* ahsectin has been ended */
+/* ahsection has been ended */
+
+/* feature section start here  */
+/* feature section stat here  */
+/* feature section start here */
+
+.feature{
+    margin:0 0 100px 0;
+    background-image: url(./image/pattern_bg.jpg);
+  
+}
+.feature .container .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    justify-content: space-between;
+}
+.feature .container .row .box{
+    width: 30%;
+    background-color: white;
+    margin: 40px 1%;
+}
+.feature .container .row .box .boxtext{
+    padding: 30px;
+}
+.feature .container .row .box .boxtext i{
+    margin-right: 9px;
+    color: blue;
+}
+.feature .container .row .box .boxtext p{
+    margin: 20px 0;
+    line-height: 25px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+
+}
+/* end of feature section */
+/* end of feature section */
+
+/* start of Service Section  */
+/* start of Service Section  */
+/* start of Service Section  */
+
+
+.services{
+    margin-bottom: 100px;
+}
+
+
+.services .row .services-text{
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+}
+.services .row .services-text h1{
+    width: 30%;
+    font-size: 35px;
+}
+.services .row .services-text p{
+    width: 70%;
+    color: black;
+    opacity: 0.7;
+    line-height: 30px;
+}
+/* doctor servies section start  */
+
+
+
+
+.services .container .services-doctor{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    z-index: 10;
+    position:relative;
+    justify-content: space-between;
+
+}
+.services .container .row .box{
+    width: 30%;
+    background-color: white;
+    margin: 40px 1%;
+    padding: 30px;
+    border: 1px solid rgb(218, 207, 207);
+
+}
+.services .row .services-doctor .box .boxtext i{
+    background-color:#ecf0f8;;
+    padding: 30px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.services .container .row .box .boxtext h3{
+    border-bottom: 1px solid rgb(218, 207, 207);
+    padding-bottom: 20px;
+
+}
+.services .container .row .box .boxtext p{
+    margin: 10px 0 0 0;
+    line-height: 30px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+}
+
+.box .boxtext .line {
+    position: relative;
+    color: black;
+}
+.box .boxtext .line::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    bottom: -8px;
+    left: 0;
+    background-color: black;
+    height: 3px;
+    transition: all 0.5s;
+
+}
+.box .boxtext .line:hover::after {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+
+.services .container .row .services-doctor .boxtext a{
+   display: inline-block;
+   margin: 15px 0;
+}
+
+/* end of doctor services section */
+/* end of doctor services section */
+
+
+/* start of about section in medcare */
+/* start of about section in medcare */
+/* start of about section in medcare */
+.about-area{
+    margin-bottom: 100px;
+}
+.about-area{
+z-index: 5;
+position:relative;
+background: #f7f7f7;
+background-image: url(./image/bg_1.png);
+background-size: cover;
+height: 185vh;
+margin-top: -300px;
+}
+
+.about-area .about-area-image{
+    position: relative;
+    left: -100px;
+    width: 48%;
+    display: inline-block;
+    padding-top:280px;
+}
+.about-area .about-area-text{
+    display: inline-block;
+    width: 33%;
+    padding-bottom: 200px;
+    top: 50%;
+    left: 55%;
+    position: absolute;
+}
+.about-area .about-area-text h2{
+    font-size: 38px;
+    word-spacing: -3px;
+    font-weight:600 ;
+    font-family: sans-serif;
+
+}
+.about-area .about-area-text h5{
+    font-size: 17px;
+    color: blue;
+    font-family: sans-serif;
+    margin:12px 0px;
+    font-weight:200 ;
+    line-height: 20px;
+}
+.about-area .about-area-text p{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight:200 ;
+    line-height: 20px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+ 
+.about-area .about-area-text .line {
+    position: relative;
+    color: black;
+}
+.about-area .about-area-text .line::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    bottom: -8px;
+    left: 0;
+    background-color: black;
+    height: 3px;
+    transition: all 0.5s;
+
+}
+.about-area .about-area-text .line:hover::after {
+    width: 100%;
+    transition: all 0.5s;
+
+}
+/* end of about section */
+
+
+/* start of galery section  */
+/* start of galery section  */
+
+.galery{
+    margin-bottom: 100px;
+}
+.galery .container .image .socialdoctor a{
+    color: black;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+/* doctor images  */
+.galery .container .galery-images{
+    display: flex;
+    justify-content: space-between;
+}
+.galery .container .galery-images .image {
+    width: 30%;
+    border: 1px solid rgb(148, 147, 147);
+    
+}
+.galery .container .galery-images .image img{
+    width: 100%;
+}
+
+.galery .container .row .galery-text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+.galery .container .row .galery-text .heading{
+    width: 30%;
+    font-size: 20px;
+}
+.galery .container .row .galery-text .paragraph{
+    width: 65%;
+    line-height: 25px;
+    opacity: 0.7;
+}
+.galery .container .galery-images .image .socialdoctor a.call{
+    margin: 0 20px 0 5px;
+}
+.galery .container .galery-images .image .doctorbio .aboutdoctor{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.galery .container .galery-images .image .doctorbio .aboutdoctor h3{
+    padding-bottom: 10px;
+}
+.galery .container .galery-images .image .doctorbio{
+    text-align: center;
+}
+
+.galery .container .galery-images .image .doctorbio .socialdoctor{
+    border-top: 1px solid rgb(148, 147, 147);
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.galery .container .galery-images .image .doctorbio{
+    padding: 30px; 
+}
+.galery .container .galery-images .image .doctorbio .socialdoctor .socialicons a{
+    margin-right: 10px;
+}
+.galery .container .galery-images .image .doctorbio .socialdoctor .socialicons a:hover{
+    color: blue;
+}
+/* End of Galery section */
+/* End of Galery section */
+
+/* start of the Form section here */
+/* start of the Form section here */
+ 
+
+.formsection .container .faqform{
+    box-shadow: 5px 5px 20px rgb(180, 180, 180), -2px -2px 20px rgb(155, 155, 155);
+}
+.formsection .container .faqform{
+    position: relative;
+    z-index: 10; 
+    background-color: white;
+}
+.formsection .container .faqform .formdata{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 70px 50px;
+}
+.formsection .container .faqform .formdata .faqfill{
+   width: 48%;
+
+}
+
+ .formsection .container .formdata .headform{
+    margin-bottom: 40px; 
+ }
+ .formsection .container .formdata .faqfill p{
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;    
+ } 
+ /* form faq fill end */
+ /* form data fill start */
+ .formsection .container .faqform .formdata .formfill{
+    width: 48%;
+ }
+ .formsection .container .formdata .formfill form #Name{
+    width: 90%;
+    padding: 15px;
+    margin:10px 0;
+ }
+ .formsection .container .formdata .formfill form #Email{
+    width: 90%;
+    padding: 15px;
+    margin:10px 0;
+ }
+ .formsection .container .formdata .formfill form #textarea{
+    width: 90%;
+    padding: 20px;
+    margin:20px 0;
+ }
+ .formsection .formdata .formfill a{
+    display: inline-block;
+    font-size: 16;
+    background-color: rgb(17, 17, 238);
+    padding: 18px 15px;
+    margin:10px 0;
+    transition: all 1s;
+
+}
+formsection .formdata .formfill .dark-btn{
+    margin-right: 10px;
+    color: white;
+    background-color: blue;
+
+}
+.formsection .formdata .formfill .dark-btn:hover{
+    background-color: white !important;
+    color: blue;
+    transition: all 0.5s;
+}
+/* end of form section  */
+
+/* Start of Testimonial Section */
+/* Start of Testimonial Section */
+/* Start of Testimonial Section */
+.testimonial{
+    background-image: url(./image/bg_2.png);
+    position: relative;
+    z-index: 5;
+    margin-top: -320px;
+    height: 130vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 100px; */
+}
+
+.testimonial .container .row .doctortestimonial{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    left: 15%;
+    text-align: center;
+}
+.testimonial .container .row .doctortestimonial .image img{
+    border-radius: 100%;
+    margin-bottom:30px ;
+}
+.testimonial .container .row .doctortestimonial p{
+    margin-bottom:30px ;
+    font-size: 23px;
+    opacity: 0.7;
+    line-height: 30px;
+    font-style: italic;
+}
+.testimonial .container .row .doctortestimonial h4{
+    font-size: 23px;
+    opacity: 0.7;
+}
+/* end of testimonial section */
+
+/* start of emergency line  */
+/* start of emergency line  */
+.emergency-call{
+    background-image: url(./image/call-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    
+}
+.emergency-call .row .call-data{
+    text-align: center;
+    padding: 120px 0;
+}
+.emergency-call .row .call-data h2{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+.emergency-call .row .call-data h1{
+    font-size: 80px;
+    color: white;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.emergency-call .row .call-data p{
+    color: white;
+    line-height: 30px;
+}
+/* end of emergency line  */
+
+
+/* start of blog section */
+/* start of blog section */
+/* start of blog section */
+
+/* blog images  */
+.blog{
+    margin-bottom: 50px;
+}
+.blog .container .row .blog-text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+.blog .container .row .blog-text .heading{
+    width: 30%;
+    font-size: 20px;
+}
+
+.blog .container .row .blog-text .paragraph{
+    width: 69%;
+    line-height: 25px;
+    opacity: 0.7;
+}
+.blog .container .blog-images{
+    display: flex;
+    justify-content: space-between;
+}
+.blog .container .blog-images .blog{
+    width: 33%;
+    
+}
+.blog .container .blog-images .blog .image{
+    width: 100%;
+}
+.blog .container .row .blog-images .blog img{
+    transition: all 300ms linear 0s;
+     
+}
+.blog .container .row .blog-images .blog img:hover{
+    transform: scale(1.1);
+    
+}
+.blog .container .blog-images .blog .socialblog .health{
+    margin-top: 20px;
+}
+.blog .container .row .blog-images .socialblog a{
+    color: black;
+    display: inline-block;
+    margin: 6px 0;
+    opacity: 0.8;
+}
+.blog .container .row .blog-images .socialblog a:hover{
+    color: blue;
+}
+.blog .container .row .blog-images .socialblog h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.blog .container .row .blog-images .socialblog .form-comment{
+    font-size: 10px;
+    text-transform: lowercase !important;
+    letter-spacing: 3px;
+    padding-right: 6px;
+}
+.blog .container .row .blog-images .socialblog .form-like{
+    font-size: 10px;
+    text-transform: lowercase !important;
+    letter-spacing: 3px;
+}
+.blog 
+/* end of blog section */
+/* end of blog section */
+
+/* Start of brannd section */
+/* Start of brannd section */
+/* Start of brannd section */
+
+.brand{
+    margin-bottom: 100px;
+    background-color: rgba(225, 230, 225, 0.815);
+}
+.brand .container .row .brandimages{
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+.brand .container .row .brandimages a{
+    margin-right: 60px;
+    padding:70px 0 ;
+    opacity: 0.7;
+    /* filter: grayscale(100%); */
+    transition: all 0.4;
+}
+.brand .container .row .brandimages a:hover{
+    opacity: 1;
+    transition: all 0.4;
+    /* filter: grayscale(0%); */
+}
+.brand .container .row .brandimages img{
+    padding:70px 0 ;
+}
+/* end of brands section --------- */
+
+/* --------------start of Footer ------------------------ */
+.main-footer{
+    margin: 50px 0px;
+}
+.main-footer .container .row{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+    padding-bottom: 50px;
+
+
+}
+.main-footer .row h2{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.main-footer .row .product{
+    flex: 0 0 18%;
+}
+.main-footer .row .links{
+    flex: 0 0 18%;
+}
+.main-footer .row .features{
+    flex: 0 0 17%;
+}
+.main-footer .row .resources{
+    flex: 0 0 15%;
+}
+.main-footer .row .newsletters{
+    flex: 0 0 30%;
+}
+.main-footer .row a{
+    display: block;
+    font-size: 15px;
+    padding: 10px 0px;
+    color: gray;
+    transition: all 0.7;
+
+}
+.main-footer .row a:hover{
+   color: blue;
+   transition: all 0.7;
+
+}
+
+.main-footer .row .newsletters .form input[type="email"]{
+    padding: 18px 23px;
+    border: 1px solid gray;
+    margin-top: 32px;
+
+}
+.main-footer .row .newsletters .form i{
+    padding: 17px 16px;
+    background-color: blue;
+    border-bottom: 3px solid blue;
+    color: white;
+    margin-left: -6px;
+}
+
+.copyright{
+    margin-bottom: 50px;
+}
+
+
+/* copy right section here */
+.copyright .row {
+    display: flex;
+    flex: 100%;
+    margin: 50px 0px;
+}
+.copyright .row .copyright-text {
+    flex: 0 0 60%;
+    align-self: center;
+}
+.copyright .row .copyright-icons {
+    flex: 0 0 40%;
+    text-align: right;
+    justify-content: end;
+
+}
+.copyright .copyright-icons i{
+    padding: 10px;
+    background-color: rgb(54, 49, 49);
+    padding: 10px;
+    transition: all 0.7;
+    color: rgb(197, 195, 195);
+    margin-left: 4px;
+
+
+}
+.copyright .copyright-icons i:hover{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transition: all 0.7;
+}
+.copyright .copyright-text{
+    opacity: 0.8;
+}
+
+/* ------------------Responsive for Mobile Screen -------------------*/
+/* ------------------Responsive for Mobile Screen -------------------*/
+/* ------------------Responsive for Mobile Screen -------------------*/
+/* ------------------Responsive for Mobile Screen -------------------*/
+/* for Header section before header  */
+/* Basic styling */
+.bfheader {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.bfheader .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail, .location, .general-social {
+    display: flex;
+    align-items: center;
+}
+
+.mail a, .location a, .general-social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.mail i, .location i, .general-social i {
+    margin-right: 5px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .bfheader .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mail, .location, .general-social {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mail a, .location a, .general-social a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
+
+@media (min-width:300px) and (max-width: 479px){
+
+   
+    .container {
+        max-width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .bfheader{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+   
+    .ahbanner{
+        max-width: 481px;
+        min-height: 520px;
+    }
+    .ahbanner .ahbanner-text {
+        max-width: 70%;
+        top: 2%;
+        display: block;
+    }
+    .ahbanner .ahbanner-text a {
+        display: block;
+        max-width: 190px;
+        padding: 16px 12px;
+    }
+    .ahbanner .ahbanner-text h1{
+        font-size: 20px;
+    }
+    .dark-btn {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+  
+/* Feature Mobile */
+    .feature .container .row .box {
+        width: 100%;
+        margin: 14px 0;
+    }
+    .feature{
+        margin-bottom: 37px;
+    }
+/* servie section mobile */
+    .services .row .services-text h1 {
+        width: 99%;
+        font-size: 37px;
+        margin-bottom: 20px;
+    }
+    .services .row .services-text p {
+        width: 100%;
+    }
+    .services .container .row .box {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .services .container .row .box .boxtext{
+        text-align: center;
+    }
+/* about area Mobile */
+    .about-area{
+        height: 120vh;
+    }
+    .about-area .about-area-image{
+        display: none;
+    }
+    .about-area .about-area-text {
+        left: 6%;
+        width: 90%;
+        top: 46%;
+    }
+    .about-area .about-area-text h2 {
+        font-size: 24px;
+    }
+    .about-area .about-area-text h5 {
+        font-size: 15px;
+    }
+    .about-area .about-area-text p {
+        font-size: 14px;
+    }
+/* Garlary Section Mobile */
+    .galery .container .row .galery-text .heading {
+        width: 90%;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .galery .container .row .galery-text .paragraph {
+        width: 100%;
+        font-size: 18px;
+        font-size: 15px;
+    }
+    .galery .container .galery-images {
+        display: block;
+    }
+    .galery .container .galery-images .image{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+
+/* Form Section Mobile */
+    .formsection .container .faqform .formdata {
+        display: block;
+        margin: 2px;
+        padding: 73px 13px;
+    }
+    .formsection .container .faqform .formdata .faqfill{
+        width: 100%;
+       
+    }
+    .formsection .container .faqform .formdata .formfill{
+        width: 100%;
+       
+    }
+/* Testimonial section Mobile */
+    .testimonial{
+        height: 170vh;
+    }
+    .testimonial .container .row .doctortestimonial {
+        top: 45%;
+    }
+    .testimonial .container .row .doctortestimonial p {
+        font-size: 15px;
+    }
+/* Emergency Call Mobile  */
+   
+
+    .emergency-call {
+        height: 250px;
+        margin-bottom: 50px;
+    }
+    .emergency-call .row .call-data h1 {
+        font-size: 35px;
+    }
+    .emergency-call .row .call-data {
+        padding: 50px 0;
+    }
+    .emergency-call .row .call-data h1{
+        padding: 7px 0;
+        margin: 3px 0;
+    }
+    .emergency-call .row .call-data h2{
+        padding-top: 5px;
+    }
+ /*Blog setion Mobile  */
+    .blog .container .row .blog-text .heading {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .blog .container .row .blog-text .paragraph {
+        width: 100%;
+    }
+    .blog .container .blog-images {
+        display: block;
+    }
+    .blog .container .blog-images .blog {
+        width: 100%;
+       
+    }
+    .blog .container .blog-images .blog img{
+        width: 100%;
+       
+    }
+/* Brands section Mobile */
+
+    .brand .container .row .brandimages {
+    width: 34%;
+    }
+    .main-footer .row .product {
+    flex: 0 0 100%;
+    }
+    .main-footer .row .links {
+    flex: 0 0 100%;
+    }
+    .main-footer .row .features {
+        flex: 0 0 100%;
+    }
+    .main-footer .row .resources {
+        flex: 0 0 100%;
+    }
+    .main-footer .row .newsletters {
+    flex: 0 0 100%;
+    }
+    .main-footer .row .newsletters .form input[type="email"] {
+        padding: 18px 40px 18px 5px;
+    
+    }
+    .main-footer .row .newsletters .form i{
+        padding: 17px 20px 19px 5px;
+        border: none;
+    
+    }
+/* CopyRight Mobile */
+    .copyright .row {
+        display: block;
+        text-align: center;
+    }
+    .copyright .row .copyright-icons{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .copyright .row .copyright-text{
+        line-height: 30px;
+    }
+
+}
+
+
+/*-------- Mobile horizantal Screen or Tablet------------------------------------------------ */
+/*-------- Mobile horizantal Screen or Tablet------------------------------------------------ */
+/*-------- Mobile horizantal Screen or Tablet------------------------------------------------ */
+
+@media (min-width:480px) and (max-width:767px){
+
+    
+    .about-area .about-area-image {
+        display: none;
+    }
+    .container {
+        max-width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .bfheader{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+ /* Banner after heading */
+    .ahbanner{
+        min-height: 600px;
+    }
+    .ahbanner .ahbanner-text {
+        max-width: 65%;
+        top: 10%;
+    }
+    .ahbanner .ahbanner-text h1 {
+        font-size: 35px;
+    }
+    .ahbanner .ahbanner-text p{
+        line-height: 27px;
+        margin: 18px 0 40px 0;
+    }
+    .ahbanner .ahbanner-text a {
+        display: block;
+        max-width: 190px;
+    }
+    .ahbanner .ahbanner-text .light-btn {
+        margin-top: 20px;
+    }
+
+/* feature 767 for--------------------------------------------------- */
+
+    .feature .container .row .box {
+         width: 100%;
+         background-color: white;
+         margin: 21px 1%;
+    }
+    .feature .container .row .box .boxtext {
+        padding: 36px;
+        text-align: center;
+    }
+/* service section 787 --------------------------------- */
+    .services .row .services-text h1 {
+         width: 100%;
+         font-size: 29px;
+         margin-bottom: 20px;
+    }
+    .services .row .services-text p {
+        width: 90%;
+   }
+    .services .container .row .box {
+         width: 100%;
+         text-align: center;
+         margin: 26px 1%;
+         padding: 32px;
+    }
+/* About Area 767------------------- */
+    .about-area{
+        height: 140vh;
+        margin-top: -300px;
+    }
+    .about-area .about-area-text{
+        top: 40%;
+        left: 16%;
+        width: 70%;
+    }
+    .about-area .about-area-text h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .about-area .about-area-text p{
+        margin: 30px 0;
+    }
+/* Galery section 767----------- */
+.galery .container .row .galery-text .heading {
+    width: 90%;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.galery .container .row .galery-text .paragraph {
+    width: 100%;
+    font-size: 18px;
+    font-size: 15px;
+}
+.galery .container .galery-images {
+    display: block;
+}
+.galery .container .galery-images .image{
+    margin-bottom: 20px;
+    width: 100%;
+}
+/* formfill section 767---------- */
+.formsection .container .faqform .formdata {
+    display: block;
+    margin: 25px;
+}
+.formsection .container .faqform .formdata .faqfill{
+    width: 90%;
+}
+.formsection .container .faqform .formdata .formfill{
+    width: 90%;
+    margin-top: 70px;
+}
+/* testimonial sectin 767---------- */
+.testimonial{
+    margin-top: -280px;
+    height: 147vh;
+}
+.testimonial .container .row .doctortestimonial {
+    top: 40%;
+}
+/* Emergency call 767----------- */
+.emergency-call .row .call-data {
+    padding: 74px 0;
+}
+.emergency-call .row .call-data h1 {
+    font-size: 40px;
+}
+
+/* Blog 767 */
+
+.blog .container .row .blog-text .heading {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.blog .container .row .blog-text .paragraph {
+    width: 95%;
+}
+.blog .container .blog-images {
+    display: block;
+    max-width: 100%;
+}
+.blog .container .blog-images .blog {
+    width: 100%;
+   
+}
+.blog .container .blog-images .blog img{
+    width: 100%;
+   
+}
+/* Brand Section start */
+.brand .container .row .brandimages {
+    width: 100%;
+}
+/* main footer 767 */
+.main-footer .row .product {
+    flex: 0 0 48%;
+}
+.main-footer .row .links {
+    flex: 0 0 48%;
+}
+.main-footer .row .features {
+    flex: 0 0 48%;
+    margin-top: 30px;
+}
+.main-footer .row .resources {
+    flex: 0 0 48%;
+    margin-top: 30px;
+
+}
+.main-footer .row .newsletters {
+    flex: 0 0 80%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+/* CopyRight 767---------- */
+.copyright{
+    margin-bottom: 15px;
+}
+.copyright .row {
+    display: block;
+    max-width: 90%;
+}
+.copyright .row .copyright-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.copyright .row .copyright-icons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+}
+
+/* ----------------For Tablets ------------------------------------------------- */
+/* ----------------For Tablets ------------------------------------------------- */
+/* ----------------For Tablets ------------------------------------------------- */
+/* ----------------For Tablets ------------------------------------------------- */
+/* ----------------For Tablets ------------------------------------------------- */
+
+@media (min-width:768px) and (max-width:991px){
+
+.about-area .about-area-image {
+    display: none;
+}
+.container {
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.bfheader{
+    display: none;
+}
+.header{
+    display: none;
+}
+/* Banner after heading */
+.ahbanner{
+    min-height: 600px;
+}
+.ahbanner .ahbanner-text {
+    max-width: 65%;
+    top: 10%;
+}
+.ahbanner .ahbanner-text h1 {
+    font-size: 35px;
+}
+.ahbanner .ahbanner-text p{
+    display: inline-block;
+    line-height: 27px;
+    margin: 40px 0 40px 0;
+}
+/* feature 768 to 991------------------------- */
+.feature .container .row .box .boxtext {
+    padding: 20px;
+    text-align: center;
+}
+.feature .container .row .box .boxtext i{
+    display: block;
+    margin-bottom: 15px;
+}
+/* service 768 to 991 ----------------------------- */
+.services .row .services-text h1 {
+    width: 40%;
+    font-size: 32px;
+    line-height: 45px;
+}
+.services .row .services-text p {
+    width: 57%;
+}
+
+/* services section 768 to 991 -------------------- */
+.services .container .row .box {
+    width: 45%;
+}
+/* about area 768 to 991------------- */
+.about-area .about-area-text {
+    width: 80%;
+    top: 32%;
+    left: 8%;
+}
+.about-area{
+    height: 98vh;
+    margin-top: -210px;
+}
+/* galary section 768 to 991------------- */
+.galery {
+    margin-bottom: 40px;
+}
+.galery .container .row .galery-text .heading {
+    width: 30%;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+.galery .container .row .galery-text .paragraph {
+    width: 63%;
+}
+.galery .container .galery-images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.galery .container .galery-images .box1 {
+    width: 48%;
+}
+.galery .container .galery-images .box2 {
+    width: 48%;
+}
+.galery .container .galery-images .box3 {
+    width: 48%;
+    margin-top: 20px;
+}
+/* form section 768 to 991-------------- */
+
+.formsection .container .faqform .formdata {
+    display: block;
+}
+.formsection .container .faqform .formdata .faqfill {
+    width: 100%;
+}
+.formsection .container .faqform .formdata .formfill {
+    width: 100%;
+    margin-top: 50px;
+}
+/* testimonial 768 to 991 ---------------- */
+.testimonial{
+    margin-top: -400px;
+    height: 160vh;
+}
+/* blog section 768 to 991 ----------- */
+
+.blog {
+    margin-bottom: 10px;
+}
+.blog .container .blog-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.blog .container .blog-images .box1 {
+   width: 48%;
+}
+.blog .container .blog-images .box2 {
+    width: 48%;
+ }
+ .blog .container .blog-images .box3 {
+    width: 48%;
+    margin-top: 20px;
+ }
+
+ .brand .container .row .brandimages {
+    width: 100%;
+}
+
+
+/* main footer 768 to 991--------------- */
+.main-footer .row .product {
+    flex: 0 0 48%;
+}
+.main-footer .row .links {
+    flex: 0 0 48%;
+}
+.main-footer .row .features {
+    flex: 0 0 48%;
+    margin-top: 30px;
+}
+.main-footer .row .resources {
+    flex: 0 0 48%;
+    margin-top: 30px;
+
+}
+.main-footer .row .newsletters {
+    flex: 0 0 80%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+/* CopyRight 768 to 991---------- */
+.copyright{
+    margin-bottom: 15px;
+}
+.copyright .row {
+    display: block;
+    max-width: 90%;
+}
+.copyright .row .copyright-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.copyright .row .copyright-icons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+}
+
+/* -----------------For Leptop Screen ------------------------------------- */
+/* -----------------For Leptop Screen --------------------------------- */
+/* -----------------For Leptop Screen --------------------------------- */
+/* -----------------For Leptop Screen -------------------------------------- */
+@media (min-width:992px) and (max-width:1199px){
+
+    .about-area .about-area-image {
+        display: none;
+    }
+    .container {
+        max-width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .bfheader{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    /* Banner after heading */
+    .ahbanner{
+        min-height: 600px;
+    }
+    .ahbanner .ahbanner-text {
+        max-width: 60%;
+        top: 10%;
+    }
+    .ahbanner .ahbanner-text h1 {
+        font-size: 35px;
+    }
+    .ahbanner .ahbanner-text p{
+        display: inline-block;
+        line-height: 27px;
+        margin: 40px 0 40px 0;
+    }
+    /* feature 991 to 1199------------------------- */
+    .feature .container .row .box .boxtext {
+        padding: 20px;
+        text-align: center;
+    }
+    .feature .container .row .box .boxtext i{
+        display: block;
+        margin-bottom: 15px;
+    }
+    /* service 991 to 1199----------------------------- */
+    .services .row .services-text h1 {
+        width: 40%;
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .services .row .services-text p {
+        width: 57%;
+    }
+    
+    /* services section 991   to 1199-------------------- */
+    .services .container .row .box {
+        width: 45%;
+    }
+    /* about area 991----1199--------- */
+    .about-area .about-area-text {
+        width: 70%;
+        top: 32%;
+        left: 8%;
+    }
+    .about-area{
+        height: 98vh;
+        margin-top: -210px;
+    }
+    /* galary section  991---1199---------- */
+    .galery {
+        margin-bottom: 40px;
+    }
+    .galery .container .row .galery-text .heading {
+        width: 30%;
+        font-size: 20px;
+        line-height: 40px;
+    
+    }
+    .galery .container .row .galery-text .paragraph {
+        width: 63%;
+    }
+    .galery .container .galery-images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .galery .container .galery-images .box1 {
+        width: 48%;
+    }
+    .galery .container .galery-images .box2 {
+        width: 48%;
+    }
+    .galery .container .galery-images .box3 {
+        width: 48%;
+        margin-top: 20px;
+    }
+    /* form section   991-----1199--------- */
+    
+    .formsection .container .faqform .formdata {
+        display: block;
+        margin: 63px;
+         padding: 58px 38px;
+    }
+    .formsection .container .faqform .formdata .faqfill {
+        width: 90%;
+    }
+    .formsection .container .faqform .formdata .formfill {
+        width: 80%;
+        margin-top: 50px;
+    }
+    /* testimonial 991 ------1199---------- */
+    .testimonial{
+        margin-top: -400px;
+        height: 160vh;
+    }
+    /* brands section */
+
+    .brand .container .row .brandimages a {
+        margin-right: 10px;
+    /* blog section 991 ---1199-------- */
+    }
+    .blog {
+        margin-bottom: 10px;
+    }
+    .blog .container .blog-images {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .blog .container .blog-images .box1 {
+       width: 48%;
+    }
+    .blog .container .blog-images .box2 {
+        width: 48%;
+     }
+     .blog .container .blog-images .box3 {
+        width: 48%;
+        margin-top: 20px;
+     }
+    
+     .brand .container .row .brandimages {
+        width: 100%;
+    }
+    
+    
+    /* main footer  991-------1199-------- */
+    .main-footer .row .product {
+        flex: 0 0 24%;
+    }
+    .main-footer .row .links {
+        flex: 0 0 24%;
+    }
+    .main-footer .row .features {
+        flex: 0 0 24%;
+    }
+    .main-footer .row .resources {
+        flex: 0 0 24%;
+    
+    }
+    .main-footer .row .newsletters {
+        flex: 0 0 80%;
+        text-align: center;
+        margin-top: 30px;
+    
+    }
+    
+    /* CopyRight 991---1199------- */
+    .copyright{
+        margin-bottom: 15px;
+    }
+    .copyright .row {
+        display: block;
+        max-width: 90%;
+    }
+    .copyright .row .copyright-text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .copyright .row .copyright-icons{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1600px){
+
+    /* about area  */
+    .about-area{
+        height: 138vh;
+        margin-top: -414px;
+    }
+    .about-area .about-area-text{
+        left: 60%;
+    }
+
+
+}
+@media (min-width:1305px) and (max-width:1310px){
+
+    /* about area  */
+    .about-area{
+        height: 138vh;
+        margin-top: -414px;
+    }
+    .about-area .about-area-text{
+        left: 60%;
+    }
+
+
+}
+
+    
